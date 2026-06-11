@@ -1,4 +1,4 @@
-"import streamlit as st
+import streamlit as st
 import os
 import time
 from datetime import datetime
@@ -103,13 +103,7 @@ if final_input:
             
     # C. Save bot response to history and refresh
     st.session_state.messages.append({""role"": ""assistant"", ""content"": bot_response})
-    st.rerun()"				
-				
-				
-				
-				
-				
-				
+    st.rerun()
 				
 				
 				
