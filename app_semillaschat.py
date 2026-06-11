@@ -3,7 +3,7 @@ from datetime import datetime
 from rapidfuzz import process, fuzz
 
 # 1. Setup the website title & page config (Adds a nice browser tab icon)
-st.set_page_config(page_title="Guardianes de semillas", page_icon="🤖")
+st.set_page_config(page_title="Guardianes de semillas", page_icon="🍷")
 st.title("🤖 Asistente para tu intercambio de semillas")
 
 # 2. Define your automated questions and answers
